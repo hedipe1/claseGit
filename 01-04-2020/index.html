@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Form y slider</title>
+</head>
+<body>
+    <main class="main">
+        <div class="slider"> </div>
+        <div class="contForm"> 
+            <form >
+                <div class="contInputs">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name"/>
+                </div>
+
+                <div class="contInputs">
+                    <label for="mail">Correo</label>
+                    <input type="email" id="mail"/>
+                </div>
+
+                <div class="contInputs">
+                    <label for="tel">Telefono</label>
+                    <input
+                    type="tel"
+                    id="tel" 
+                    placeholder="Ej:+57312617350"
+                    />
+                </div>
+
+                <div class="contInputs">
+                    <label for="ic">Documento de Identidad</label>
+                    <input type="number" id="ic"/>
+                </div>
+                <div class="contInputs">
+                    <label for="date">Fecha de nacimiento</label>
+                    <input type="date" id="date"/>
+                </div>
+                <div class="contInputs">
+                    <label for="program">Seleccione un programa
+                    </label>
+                    <select id="program">
+                        <option value="value1">Programa 1</option>
+                        <option value="value2">Programa 2</option>
+                        <option value="value3">Programa 3</option>
+                    </select>
+                </div>
+                <div class="contInputs inputGender">
+                    <label>Genero</label>
+                    <label>
+                        <input type="radio" name="gender"
+                        value="mujer"/>
+                        Mujer
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="Hombre"/>
+                        Hombre
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="otro"/>
+                        Otro
+                    </label>
+                </div>
+                <div class="contIputs">
+                    <label for="msg">Mensaje</label>
+                    <textarea name="msg" id="msg" cols="40" rows="5"></textarea>
+                </div>
+                <div class="contIputs">
+                    <label for="TYC">Acepto terminos y condiciones*</label>
+                    <input type="checkbox" id="TyC" required/>
+                </div>
+
+                <div class="contInputs">
+                    <button type="submit">Enviar</button>
+                </div>
+
+                </form>
+                <div>
+            </form>
+        </div>
+    </main>  
+</body>
+</html>

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    background-color: rgb(235, 221, 226);
+}
+
+.main{
+    max-width: 1200px;
+    width: 500px;
+    margin: auto;
+    height: 2000px;
+
+}
+
+.title {
+    text-align: center;
+    margin: 80px 0 40px;
+    color: rgb(148, 79, 0);
+    font-size: 3rem;
+}
+
+.imgDesarrollador {
+    display: block;
+    width: 70%;
+    margin: auto;
+   
+}
+
+
+
+.footer {
+    background-color: rgb(138, 100, 72);
+    padding: 20px 0 50px;
+}
+
+.contColsFooter{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.contactTitle {
+    text-align: center;
+    color: wheat;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.colsFooter {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.colsFooter a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.colsFooter p {
+    font-weight: 300;
+}
+
+.colsFooter a,
+.colsFooter p {
+    color: white;
+    text-align: center;
+}
+
+.colsFooter a:hover {
+    color: wheat;
+
+}
+
+@media screen and (ma-width:500px) {
+    .title {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .imgDesarrollador {
+        width: 30%;
+    }
+    
+@media screen and (min-width:500px) {
+	.imgDesarrollador {
+		background-image: url(.imgDesarrollador);
+}
+}

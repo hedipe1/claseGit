@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Bit-Art</title>
+</head>
+
+<body>
+    <div class="contenedorMenu">
+        <h1><img src="./pics/logo.PNG" alt="logo del museo"></h1>
+    <nav class="navBotones">
+        <ul class="contList">
+            <li class="itemMenu"><a class="linkMenu" href="index.html">Home</a></li>
+            <li class="itemMenu"><a class="linkMenu" href="nosotros.html">Nosotros</a></li>
+            <li class="itemMenu"><a class="linkMenu" href="eventos.html">Eventos</a></li>
+            <li class="itemMenu"><a class="linkMenu" href="contacto.html">Contacto</a></li>                                
+        </ul>
+    </nav>
+</div>
+
+<div class="contForm">
+    <form>
+        <div class="contInputs">
+            <label for="name">Nombre</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Ej: Hernan"
+                required/>
+        </div>
+
+        <div class="contInputs">
+            <label for="name">Apellido</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Ej: Diaz"
+                required/>
+        </div>
+        <div class="contInputs">
+            <label for="mail">Correo</label>
+            <input type="email" id="mail" />
+        </div>
+        <div class="contInputs">
+            <label for="tel">Teléfono</label>
+            <input
+                type="tel"
+                id="tel"
+                placeholder="Ej: 57 1234 56 78"
+            />
+        </div>
+        
+        
+        <div class="contInputs">
+            <label for="program">Seleccione un evento</label>
+            <select id="program">
+                <option >Select</option>
+                <option value="value1">Topografias</option>
+                <option value="value2">Despues del taller</option>
+                <option value="value3">Fosiles en movimiento</option>
+            </select>
+        </div>
+        
+        
+        <div class="contInputs contTyC">
+            <label for="TyC">Acepto terminos y condiciones*</label>
+            <input type="checkbox" id="TyC" required />
+        </div>
+
+        <div class="contInputs contBtn">
+            <button type="submit">Inscribirme</button>
+        </div>
+        
+    </form>
+</div>
+
+
+
+
+
+
+
+<footer class="footer">
+    <h4 class="contactTitle">Contacto</h4>
+        <div class="colsFooter">
+            <p>Teléfono</p>
+            <a href="tel:3142617350">3142617350</a>
+        </div>
+
+        <div class="colsFooter">
+            <p>Correo</p>
+            <a href="hedipe8@gmail.com">hedipe8@gmail.com</a>
+        </div> 
+</footer>
+
+</body>
+</html>

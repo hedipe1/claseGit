@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background: #f4f4f4;
+}
+
+.contenedor{
+    background: rgb(122, 202, 255);
+    margin: 20px;
+    padding: 20px;      
+}
+
+ul{
+display: flex;
+justify-content:center;
+}
+
+li{
+    list-style: none;
+    float: right;
+    background-color: rgb(209, 40, 40);
+    padding: 10px;
+    border: 1px solid rgb(0, 47, 255);
+    margin: 10px;  
+    border-radius: 10px;
+}
+li:hover{
+    background-color: rgb(8, 8, 8);
+    box-shadow: 1px 1px 8px black;
+}
+
+.contacto {
+    color: rgb(220, 20, 170);
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+img{
+    display: block;
+    margin: 10px auto;
+}
+
